@@ -60,10 +60,11 @@ strong {
 .profile-photo {
   display: block;
   width: 202px;
-  height: 244px;
+  height: 202px;
   object-fit: cover;
   object-position: center 42%;
   border: 1px solid var(--rule);
+  border-radius: 50%;
 }
 
 h1 {
@@ -333,7 +334,7 @@ footer {
   .profile-photo {
     grid-row: 1 / span 3;
     width: 150px;
-    height: 181px;
+    height: 150px;
   }
 
   h1 {
@@ -380,7 +381,7 @@ footer {
 
   .profile-photo {
     width: 118px;
-    height: 143px;
+    height: 118px;
   }
 
   h1 {
